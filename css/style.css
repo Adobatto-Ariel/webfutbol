@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.img-logo {
+    width: 40px;
+}
+.container-logo-h1 {
+    display: flex;
+    align-items: center;
+}
+.container-logo-h1 h1 {
+    font-size: 18px;
+    padding: 5px;
+    margin: 0;
+}
+.links {
+    color: aqua;
+}
+
+.btn-buscar {
+    color: aqua;
+    border: 1px solid #fff;
+}
+.btn-buscar:hover {
+    border-color: aqua;
+    color: #fff;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+}
+.ul-footer {
+    list-style: none;
+}
+.enlaces-footer {
+    text-decoration: none;
+    color: #fff;
+    transition: all 0.3s;
+}
+.enlaces-footer:hover {
+    color: aqua;
+}
+.icono-redes {
+    font-size: 30px;
+    color: aqua;
+}
